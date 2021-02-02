@@ -103,7 +103,7 @@ for i in range(replicates):
         #print('Estimate rest time:',(time_end-time_start_1)/progress - (time_end -time_start_1),'s')
 
 
-
+data.to_csv("sa/SA_Sobol_result.csv", index=False)
 #Sobol analysis result
 Si_get_sex_ratio = sobol.analyze(problem, data['gender_ratio'].values, calc_second_order=False, print_to_console=True)
 
