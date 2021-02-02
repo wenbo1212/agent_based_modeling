@@ -1,16 +1,16 @@
 This project is for simulating the interactions between SRB and gender income gap.
 
 
-- /data 							family survey data for estimating parameters of I-I model and I-E model
-- /experiment 						stores the experimental raw data
-- /sa stores 						results of sensitivity analysis
+- /data: 							family survey data for estimating parameters of I-I model and I-E model
+- /experiment: 					 experimental raw data
+- /sa: 						results of sensitivity analysis
 
 - agent.py: 						agent file
-- sex_distortion.py 				model file
-- SA_OFAT.py 						ofat analysis file
-- SA_Sobol.py 						sobol analysis file
-- sex_ratio_bias_experiment.py 		multi iterations experiment
-- SRB_Distortion_notebook.ipynb		integrated simulation work flow, including parameter estimation and simulation.
+- sex_distortion.py: 				model file
+- SA_OFAT.py: 						ofat analysis file
+- SA_Sobol.py: 						sobol analysis file
+- sex_ratio_bias_experiment.py: 		multi iterations experiment
+- SRB_Distortion_notebook.ipynb:		integrated simulation work flow, including parameter estimation and simulation.
 
 
 Running single iteration and observing running states, please open ipynb file and execute from top to bottom.
