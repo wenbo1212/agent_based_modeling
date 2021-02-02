@@ -119,6 +119,6 @@ def plot_all_vars(df, param):
         plot_param_var_conf(axs[i], data[var], var, param, i)
 
 
-for param in ('gender_ratio'):
+for param in {'gender_ratio'}:
     plot_all_vars(data, param)
     plt.show()
