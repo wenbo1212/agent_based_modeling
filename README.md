@@ -2,8 +2,8 @@ This project is for simulating the interactions between SRB and gender income ga
 
 
 - /data: 							family survey data for estimating parameters of I-I model and I-E model
-- /experiment: 						stores the experimental raw data
-- /sa stores: 						results of sensitivity analysis
+- /experiment: 					 experimental raw data
+- /sa: 						results of sensitivity analysis
 
 - agent.py: 						agent file
 - sex_distortion.py: 				model file
